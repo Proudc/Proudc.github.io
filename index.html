@@ -3,76 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Academic Portfolio</title>
+    <title>My Professional CV</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+        /* Base styles */
+        body, html {
+            height: 100%;
             margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+            font-family: 'Arial', sans-serif;
+            background: #121212; /* Dark background for a cooler look */
+            color: #ccc; /* Light grey text for better readability on dark backgrounds */
         }
-
         .container {
-            max-width: 960px;
-            margin: auto;
+            max-width: 900px;
+            margin: 40px auto;
             padding: 20px;
-            background: #fff;
+            background-color: #1e1e1e; /* Slightly lighter dark shade for the container */
+            box-shadow: 0 8px 16px rgba(0,0,0,0.5); /* Stronger shadow for a pop-out effect */
+            border-radius: 8px;
         }
-
-        h1, h2, h3 {
-            color: #333;
+        header {
+            text-align: center;
+            color: #fff;
+            padding: 20px 0;
+            background-color: #121212; /* Bright blue for the header */
         }
-
-        p {
-            margin: 10px 0;
-        }
-
-        .profile-image {
-            width: 300px;
-            height: 300px;
-            border-radius: 50%;
+        section {
             margin-top: 20px;
-
+        }
+        h1, h2 {
+            font-weight: 300;
+        }
+        h2 {
+            color: #4caf50; /* Cooler, vibrant green for titles */
+            border-bottom: 2px solid #4caf50; /* Green bottom border for the titles */
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            background-color: #333; /* Darker list items for contrast */
+            color: #fff; /* White text for list items */
+            margin-bottom: 8px;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 0.8em;
+            color: #aaa; /* Light grey text for the footer */
+        }
+        img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            display: block;
+            margin: 10px auto;
         }
     </style>
 </head>
-
 <body>
+    <header>
+        <h1>The Curriculum Vitae of Zhihao Chang</h1>
+    </header>
     <div class="container">
-        <center><h2>Zhihao Chang (常志豪)</h2></center>
+        <section>
+            <h2>Research Interests</h2> 
+            <p>Sequence representation learning / Query optimization / Performance optimization</p>
+        </section>
         
-        <h2>About Me</h2>
-        <p>Hi, I'm Zhihao Chang. I am a doctoral student at the School of Computer Science, Zhejiang University. I received a bachelor's degree in engineering and graduated from Tianjin University majoring in Naval and Ocean Engineering.</p>
-        <h2>Research Interests</h2>
-        <p>Sequence representation learning / Query optimization / Performance optimization</p>
-        <h2>Education</h2>
-        <ul>
-            <li>2019.06-Present, Ph.D., Computer Science, Zhejiang University, Hangzhou, Zhejiang, China</li>
-            <li>2015.09-2019.06, B.Eng., Ocean Engineering, Tianjin University, Tianjin, China</li>
-        </ul>
-        <h2>Publications</h2>
-        <ul>
-            <li>Dec, 2023. Paper <i>Neural Embeddings for kNN Search in Biological Sequence</i> is accepted by AAAI, <a href="https://ojs.aaai.org/index.php/AAAI/article/view/27753">Paper</a>, <a href="https://github.com/Proudc/Bio-KNN">Code</a></li>
-            <li>Dec, 2022. Paper <i>SQUID: subtrajectory query in trillion-scale GPS database</i> is accepted by VLDBJ, <a href="https://link.springer.com/article/10.1007/s00778-022-00777-7">Paper</a>, <a href="https://github.com/Proudc/squid">Code</a></li>
-            <li>Dec, 2020. Paper <i>Continuous Trajectory Similarity Search for Online Outlier Detection</i> is accepted by TKDE, <a href="https://ieeexplore.ieee.org/document/9306918">Paper</a>, <a href="https://github.com/Proudc/CTSS">Code</a></li>
-        </ul>
-        <h2>Presentation</h2>
-        <ul>
-            <li>Oct, 2021. Presentation <i>Need for SPEED: Site Performance Efficiency, Evaluation and Decision</i> on USENIX Srecon21, <a href="https://www.usenix.org/conference/srecon21/presentation/chow">presentation</a></li>
-        </ul>
-        <h2>Experience</h2>
-        <ul>
-            <li>2021.07-2022.04, Research Intern, Alibaba Group, Hangzhou, China.</li>
-        </ul>
-        <h2>Honors And Awards</h2>
-        <ul>
-            <li>Outstanding Graduate Award of ZJU</li>
-            <li>Outstanding Graduate Student of ZJU</li>
-            <li>Merit Student of TJU</li>
-        </ul>
-        <h2>Contact Me</h2>
-        <p>Email: changzhihao@zju.edu.cn</p>
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>[2019.06 - Present] Ph.D. in Computer Science - Zhejiang University</li>
+                <li>[2015.09-2019.06] B.Eng. in Ocean Engineering - Tianjin University</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+            <ul>
+                <li>[2021.07-2022.04] Research Intern - Alibaba Group, CTO line</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Publications</h2>
+            <ul>
+                <li>[2024.05] Paper <i style="color:#50ef11";>Revisiting CNNs for Trajectory Similarity Learning</i> is putted on arxiv, <a href="https://arxiv.org/abs/2405.19761" style="color:#b0de3c;">Paper</a>, <a href="https://github.com/Proudc/ConvTraj" style="color:#b0de3c;">Code</a></li>
+                <li>[2023.12] Paper <i style="color:#50ef11";>Neural Embeddings for kNN Search in Biological Sequence</i> is accepted by AAAI, <a href="https://ojs.aaai.org/index.php/AAAI/article/view/27753" style="color:#b0de3c;">Paper</a>, <a href="https://github.com/Proudc/Bio-KNN" style="color:#b0de3c;">Code</a></li>
+                <li>[2022.12] Paper <i style="color:#50ef11";>SQUID: Subtrajectory query in Trillion-scale GPS database</i> is accepted by VLDBJ, <a href="https://link.springer.com/article/10.1007/s00778-022-00777-7" style="color:#b0de3c;">Paper</a>, <a href="https://github.com/Proudc/squid" style="color:#b0de3c;">Code</a></li>
+                <li>[2020.12] Paper <i style="color:#50ef11";>Continuous Trajectory Similarity Search for Online Outlier Detection</i> is accepted by TKDE, <a href="https://ieeexplore.ieee.org/document/9306918" style="color:#b0de3c;">Paper</a>, <a href="https://github.com/Proudc/CTSS" style="color:#b0de3c;">Code</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Presentation</h2>
+            <ul>
+                <li>[2021.10] Presentation <i>Need for SPEED: Site Performance Efficiency, Evaluation and Decision</i> on USENIX Srecon21, <a href="https://www.usenix.org/conference/srecon21/presentation/chow" style="color:#b0de3c;">Presentation</a></li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Honors and Awards</h2>
+            <ul>
+                <li>[2024] Outstanding Graduate Award - ZJU</li>
+                <li>[2023] Outstanding Graduate Student - ZJU</li>
+                <li>[2021] Outstanding Graduate Student - ZJU</li>
+                <li>[2019] Merit Student - TJU</li>
+            </ul>
+        </section>
+
+        <h2>Contact Me: changzhihao@zju.edu.cn</h2>
+        
     </div>
+    <footer>
+        © 2023 My Name. All rights reserved.
+    </footer>
 </body>
 </html>
