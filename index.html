@@ -1,209 +1,225 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Curriculum Vitae of Zhihao Chang</title>
-    <style>
-        body {
-            font-family: Calibri, Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-            line-height: 1.6;
-        }
 
-        header {
-            background-color: #2b2b2b;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="apple-mobile-web-app-capable" content="yes">  
+		<meta name="format-detection" content="telephone=no"> 
+		<meta name="description" content="Zhihao Chang's webpage">
+		<meta name="author" content="Zhihao Chang">
+		<title>The Curriculum Vitae of Zhihao Chang</title>
+		<link rel="stylesheet" href="github-markdown.css">
 
-        .header-content {
-            display: flex;
-            align-items: center;
-        }
+		<style>
+body {
+	box-sizing: border-box;
+	min-width: 200px;
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 2%;
+}
 
-        .header-content img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            margin-right: 20px; /* Add space between the image and text */
-            border: 3px solid #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
+h2 {
+    color: #2e7d32;
+    border-bottom: 6px solid #2e7d32;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+}
 
-        .header-text h1 {
-            margin: 0;
-            font-size: 1.8em;
-        }
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #2e7d32;
+    color: #fff;
+    font-size: 0.9em;
+}
 
-        .header-text p {
-            margin: 5px 0 0;
-            font-size: 1em;
-        }
+		</style>
 
-        .container {
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 0 15px;
-            font-size: 1.1em;
-        }
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158965281-1"></script>
+		<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
 
-        h2 {
-            color: #2e7d32;
-            border-bottom: 6px solid #2e7d32;
-            padding-bottom: 2px;
-            margin-bottom: 10px;
-        }
+gtag('config', 'UA-158965281-1');
+		</script>
+	</head>
 
-        footer {
-            text-align: center;
-            padding: 15px 0;
-            background-color: #2b2b2b;
-            color: #fff;
-            font-size: 1.9em;
-        }
-    </style>
-</head>
-<body>
+	<body bgcolor="#EEEEEE">
+		<div style="background:#FFFFFF; align:center; margin:auto; padding:3%">
+			<article class="markdown-body">
+				<table border="0" cellspacing="0" cellpadding="20" frame="void">
+				<tr>
+				<!-- td align="center" valign="middle">
+				<img src="images/header.jpg" width=180 align="middle">
+				</td -->
 
-<header>
-    <div class="header-content">
-        <!-- Place your photo here -->
-        <img src="p4.jpg" alt="Profile Photo">
-        <div class="header-text" style="max-width: 600px; text-align: left; word-break: break-word">
-            <h1>Zhihao Chang</h1>
-            <p >I joined the College of Software, Zhejiang University, as an Assistant Professor in October 2024. I received my Bachelor's degree from Tianjin University in 2019 and my Ph.D. from Zhejiang University in 2024. My primary research interests focus on sequence representation learning and software-hardware performance optimization. I am actively recruiting Master's and Ph.D. students for my research team. Interested students are welcome to contact me at changzhihao@zju.edu.cn.</p>
-        </div>
-    </div>
-</header>
-
-<div class="container">
-    <!-- Research Interests -->
-    <div class="section">
-        <h2>Research Interests</h2>
-        <p>Sequence Representation Learning / Software & Hardware Co-Optimization / High Performance Computing</p>
-    </div>
-
-    <!-- Work Section -->
-    <div class="section">
-        <h2>Work Experience</h2>
-        <div class="item">
-            <p class="item-title">[2024.10 - Now] Assistant Professor, School of Software Technology, Zhejiang University</p>
-        </div>
-    </div>
-
-    <!-- Education Section -->
-    <div class="section">
-        <h2>Education</h2>
-        <div class="item">
-            <p class="item-title">[2019.09 - 2024.09] Ph.D. in Computer Science, Zhejiang University</p>
-        </div>
-        <div class="item">
-            <p class="item-title">[2015.09 - 2019.06] B.Eng. in Ocean Engineering, Tianjin University</p>
-        </div>
-    </div>
-
-    <!-- Experience Section -->
-    <div class="section">
-        <h2>Intern</h2>
-        <div class="item">
-            <p class="item-title">[2021.07-2022.04] Research Intern, Alibaba Group (CTO Line)</p>
-        </div>
-    </div>
-
-    <!-- Publications Section -->
-    <div class="section">
-        <h2>Publications</h2>
-        <div class="item">
-            <p class="item-title">[2024.05] Revisiting CNNs for Trajectory Similarity Learning, arXiv</p>
-            <div class="links">
-                <a href="https://arxiv.org/abs/2405.19761" style="color:#2e7d32;">Paper</a>
-                <a href="https://github.com/Proudc/ConvTraj" style="color:#2e7d32;">Code</a>
-            </div>
-        </div>
-        <div class="item">
-            <p class="item-title">[2023.12] Neural Embeddings for kNN Search in Biological Sequences, AAAI</p>
-            <div class="links">
-                <a href="https://ojs.aaai.org/index.php/AAAI/article/view/27753" style="color:#2e7d32;">Paper</a>
-                <a href="https://github.com/Proudc/Bio-KNN" style="color:#2e7d32;">Code</a>
-            </div>
-        </div>
-        <div class="item">
-            <p class="item-title">[2022.12] SQUID: Subtrajectory Query in Trillion-scale GPS Database, VLDB Journal</p>
-            <div class="links">
-                <a href="https://link.springer.com/article/10.1007/s00778-022-00777-7" style="color:#2e7d32;">Paper</a>
-                <a href="https://github.com/Proudc/squid" style="color:#2e7d32;">Code</a>
-            </div>
-        </div>
-        <div class="item">
-            <p class="item-title">[2022.05] Continuous Trajectory Similarity Search for Online Outlier Detection (Extended Abstract), ICDE</p>
-            <div class="links">
-                <a href="https://ieeexplore.ieee.org/document/9835432" style="color:#2e7d32;">Paper</a>
-                <a href="https://github.com/Proudc/CTSS" style="color:#2e7d32;">Code</a>
-            </div>
-        </div>
-        <div class="item">
-            <p class="item-title">[2020.12] Continuous Trajectory Similarity Search for Online Outlier Detection, TKDE</p>
-            <div class="links">
-                <a href="https://ieeexplore.ieee.org/document/9306918" style="color:#2e7d32;">Paper</a>
-                <a href="https://github.com/Proudc/CTSS" style="color:#2e7d32;">Code</a>
-            </div>
-        </div>
-    </div>
-
-    <!-- Presentations Section -->
-    <div class="section">
-        <h2>Presentations</h2>
-        <div class="item">
-            <p class="item-title">[2021.10] Need for SPEED: Site Performance Efficiency, USENIX Srecon21</p>
-            <div class="links">
-                <a href="https://www.usenix.org/conference/srecon21/presentation/chow" style="color:#2e7d32;">Presentation</a>
-            </div>
-        </div>
-    </div>
+				<td width="25%">
+					<img src="p4.jpg" width="80%" height="120%">    
+			 	</td>
 
 
-    <div class="section">
-        <h2>Honors and Awards</h2>
-        <div class="item">
-            <p class="item-title">[2024] Outstanding Graduate Award, Zhejiang University</p>
-        </div>
-        <div class="item">
-            <p class="item-title">[2023] Outstanding Graduate Student, Zhejiang University</p>
-        </div>
-        <div class="item">
-            <p class="item-title">[2021] Outstanding Graduate Student, Zhejiang University</p>
-        </div>
-        <div class="item">
-            <p class="item-title">[2021] Merit Student, Tianjin University</p>
-        </div>
-    </div>
+				<td width="75%">
+					<li>Zhihao Chang</li>
+					<li>Assistant Professor</li>
+					<li>The College of Software, Zhejiang University</li>
+					<li>E-mail: changzhihao@zju.edu.cn</li>
+					<li>Other Sites: <a href="https://github.com/Proudc/">Github</a> <a href="https://scholar.google.com/citations?user=dla9myUAAAAJ&hl=en&oi=ao">GoogleScholar</a> 
+					</ul>
+				</td>
+			
+				
+					</tr>
+				</table>
 
-    <div class="section">
-        <h2>Other Links</h2>
-        <div class="item">
-            <p class="item-title">[Github] https://github.com/Proudc/</p>
-        </div>
-        <div class="item">
-            <p class="item-title">[Google Scholar] https://scholar.google.com/citations?user=dla9myUAAAAJ&hl=en&oi=ao</p>
-        </div>
-    </div>
 
-    <h2>Contact Me: changzhihao@zju.edu.cn</h2>
+				<h2>About Me</h2>
+				<table border="0" cellspacing="0" cellpadding="10">
+					<td align="justify">
+						<p>
+						I joined the College of Software, Zhejiang University, as an Assistant Professor in October 2024. I received my Bachelor's degree from Tianjin University in 2019 and my Ph.D. from Zhejiang University in 2024. My primary research interests focus on sequence representation learning and software-hardware performance optimization. I am actively recruiting Master's and Ph.D. students for my research team. Interested students are welcome to contact me at changzhihao@zju.edu.cn.
+						</p>
+						<!-- <div class="red">
+						Our group is actively looking for undergraduate interns, motivated graduate students (MS or Ph.d) and postdocs to work in the area of intelligent software engineering.
+						</div> -->
+						
+					</td>
+				</table>
+				
+				<!-- <div id="publications"> -->
+<h2>Research Interests</h2>
+	<ul>
+	<li>
+		Sequence Representation Learning
+		<br>
+	</li>
+	<li>
+		Software & Hardware Co-Optimization
+		<br>
+	</li>
+	<li>
+		High Performance Computing
+		<br>
+	</li>
+	</ul>
 
-</div>
 
-<footer>
-    &copy; 2024 Zhihao Chang. All rights reserved.
-</footer>
 
-</body>
+<h2>Education</h2>
+	<ul>
+	<li>
+		[2019.09 - 2024.09] Ph.D. in Computer Science, Zhejiang University
+		<br>
+	</li>
+	<li>
+		[2015.09 - 2019.06] B.Eng. in Ocean Engineering, Tianjin University
+		<br>
+	</li>
+	</ul>
+
+
+
+<h2>Intern</h2>
+	<ul>
+	<li>
+		[2021.07-2022.04] Research Intern, Alibaba Group (CTO Line)
+		<br>
+	</li>
+	</ul>
+
+
+<h2>Publications</h2>
+	<ul>
+	<li>
+		[2024.05] Revisiting CNNs for Trajectory Similarity Learning, arXiv
+		<br>
+		[<a href="https://arxiv.org/abs/2405.19761" style="color:#2e7d32;">Paper</a>] [<a href="https://github.com/Proudc/ConvTraj" style="color:#2e7d32;">Code</a>]<br>
+	</li>
+	<li>
+		[2023.12] Neural Embeddings for kNN Search in Biological Sequences, AAAI
+		<br>
+		[<a href="https://ojs.aaai.org/index.php/AAAI/article/view/27753" style="color:#2e7d32;">Paper</a>] [<a href="https://github.com/Proudc/Bio-KNN" style="color:#2e7d32;">Code</a>]<br>
+	</li>
+	<li>
+		[2022.12] SQUID: Subtrajectory Query in Trillion-scale GPS Database, VLDB Journal
+		<br>
+		[<a href="https://link.springer.com/article/10.1007/s00778-022-00777-7" style="color:#2e7d32;">Paper</a>] [<a href="https://github.com/Proudc/squid" style="color:#2e7d32;">Code</a>]<br>
+	</li>
+	<li>
+		[2022.05] Continuous Trajectory Similarity Search for Online Outlier Detection (Extended Abstract), ICDE
+		<br>
+		[<a href="https://ieeexplore.ieee.org/document/9835432" style="color:#2e7d32;">Paper</a>] [<a href="https://github.com/Proudc/CTSS" style="color:#2e7d32;">Code</a>]<br>
+	</li>
+	<li>
+		[2020.12] Continuous Trajectory Similarity Search for Online Outlier Detection, TKDE
+		<br>
+		[<a href="https://ieeexplore.ieee.org/document/9306918" style="color:#2e7d32;">Paper</a>] [<a href="https://github.com/Proudc/CTSS" style="color:#2e7d32;">Code</a>]<br>
+	</li>
+	</ul>
+
+<h2>Presentations</h2>
+	<ul>
+	<li>
+		[2021.10] Need for SPEED: Site Performance Efficiency, USENIX Srecon21
+		<br>
+		[<a href="https://www.usenix.org/conference/srecon21/presentation/chow" style="color:#2e7d32;">Presentation</a>]<br>
+	</li>
+	</ul>
+
+<!-- <h2>Honors and Awards</h2>
+				<b>Journal Reviewer</b>:
+				<ul>
+					<li>IEEE Transactions on Software Engineering (TSE)</li>
+					
+					<li>ACM Transactions on Software Engineering and Methodology (TOSEM)</li>
+					
+					<li>Empirical Software Engineering (EMSE)</li>
+
+					<li>Automated Software Engineering Journal (ASEJ)</li>
+					
+					<li>Transactions on Reliability (TR)</li>
+					
+					<li>Journal of Software: Evolution and Process (JSME)</li>
+					
+					<li>Computational Intelligence</li>
+
+					<li>Journal of Software (In Chinese)</li>
+				</ul>
+
+				<b>Conference Program Committee</b>:
+				<ul>
+					<li>FSE 2025</li>
+					<li>ICSE 2025</li>
+					<li>ASE 2024</li>
+					<li>SANER 2023</li>
+					<li>ICSE 2023 Tool Demo Track</li>
+					<li>APSEC 2024</li>
+					<li>APSEC 2023</li>
+					<li>Internetware 2023</li>
+					<li>Chinasoft 2022</li>
+					<li>Internetware 2024 Tool Demo Track</li>
+					<li>Internetware 2022 Intelligent Software Engineering Track</li>
+				</ul> -->
+				
+				<h2>Honors and Awards</h2>
+				<ul>
+					<li>[2024] Outstanding Graduate Award, Zhejiang University</li>
+					<li>[2023] Outstanding Graduate Student, Zhejiang University</li>
+					<li>[2021] Outstanding Graduate Student, Zhejiang University</li>
+					<li>[2021] Merit Student, Tianjin University</li>
+				</ul>
+
+	
+			</article>
+		</div>
+
+
+		<footer>
+			&copy; 2024 Zhihao Chang. All rights reserved.
+		</footer>
+
+
+	</body>
 </html>
